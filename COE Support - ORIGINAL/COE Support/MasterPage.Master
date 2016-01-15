@@ -1,0 +1,62 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb" Inherits="COE_Support.MasterPage" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title>COE Adobe Support</title>
+    <link id="Link1" runat="server" href="styles.css" type="text/css" rel="stylesheet" />    
+    <asp:ContentPlaceHolder id="head" runat="server"></asp:ContentPlaceHolder>
+        <style type="text/css">
+            .auto-style2 {
+                width: 611px;
+            }
+            .auto-style3 {
+                width: 136px;
+            }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <asp:Panel id="header" runat="server">
+	<asp:Image ID="imgCombination" runat="server" ImageUrl="~/Images/Combination.jpg" AlternateText="Center Of Excellence"/>
+	
+           
+</asp:Panel>
+        <asp:Panel ID="nav" runat="server" CssClass="subheader" Width="753px">
+    <table width="100%">
+        <tr valign="middle">
+            <td class="tableCell">
+				<!--<asp:Label ID="lblBreadCrumb" runat="server" />-->
+                <asp:LinkButton ID="lnkHome" runat="server" Text="Home" PostBackUrl="~/WelcomePage.aspx" CausesValidation="false" ForeColor="#0000cc"></asp:LinkButton>&nbsp;
+                  <asp:LinkButton ID="lnkDocumentation" runat="server" Text="Documentation" PostBackUrl="~/InstallationInstructions.aspx" CausesValidation="false" ForeColor="#0000cc"></asp:LinkButton>&nbsp;
+                  <asp:LinkButton ID="lnkHelp" runat="server" Text="Help" CausesValidation="false" ForeColor="#0000cc"></asp:LinkButton>
+			</td>
+			<td class="tableCell">
+			 <asp:LinkButton ID="lnkLogin" runat="server" Text="Login" PostBackUrl="~/Login.aspx" CausesValidation="false" ForeColor="#0000cc"></asp:LinkButton>     
+			</td>
+            
+            <td></td>
+        </tr>
+    </table>
+</asp:Panel>
+       
+            
+                <div id="innerContent">
+	<div class="wrapper">
+		<asp:ContentPlaceHolder id="c1" runat="server">          
+		</asp:ContentPlaceHolder>
+	</div>
+</div>
+      
+  
+    
+        
+  
+
+<div id="footer">Los Angeles County, California</div> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Projects\COE Adobe Support\COE Support\COE Support\obj\Debug\COE_Support.Resources.resources
+C:\Projects\COE Adobe Support\COE Support\COE Support\obj\Debug\COE Support.vbproj.GenerateResource.Cache
+C:\Projects\COE Adobe Support\COE Support\COE Support\bin\COE Support.dll.config
+C:\Projects\COE Adobe Support\COE Support\COE Support\bin\COE Support.dll
+C:\Projects\COE Adobe Support\COE Support\COE Support\bin\COE Support.pdb
+C:\Projects\COE Adobe Support\COE Support\COE Support\bin\COE Support.xml
+C:\Projects\COE Adobe Support\COE Support\COE Support\obj\Debug\COE Support.dll
+C:\Projects\COE Adobe Support\COE Support\COE Support\obj\Debug\COE Support.xml
+C:\Projects\COE Adobe Support\COE Support\COE Support\obj\Debug\COE Support.pdb
